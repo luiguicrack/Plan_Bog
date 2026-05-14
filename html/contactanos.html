@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactános — Plan BOG</title>
+    <link rel="icon" href="img/mini.png" type="image/png">
+
+    <!-- CSS PROPIO GASTRONOMÍA -->
+    <link rel="stylesheet" href="../css/contactanos.css">
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="../index.html" data-key="home">INICIO</a></li>
+            <li><button id="language-toggle">ESP</button></li>
+            <li class="dropdown">
+                <a href="#" data-key="category">CATEGORÍA</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gastronomia.html" data-key="gastronomy">GASTRONOMÍA</a></li>
+                    <li><a href="deportes.html" data-key="sports">DEPORTES</a></li>
+                    <li><a href="musica.html" data-key="music">MÚSICA</a></li>
+                    <li><a href="moda.html" data-key="fashion">MODA</a></li>
+                    <li><a href="ferias.html" data-key="fairs">FERIAS</a></li>
+                    <li><a href="emprendimiento.html" data-key="entrepreneurship">EMPRENDIMIENTO</a></li>
+                </ul>
+            </li>
+            <li><a href="contactanos.html" data-key="contact">CONTÁCTANOS</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <img src="img/fondo.gif" alt="Gastronomía Bogotá" class="hero-img">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="script" data-key="gastroTitle">Contáctenos</h1>
+            <p data-key="gastroHero">Y CONTRUYAMOS ALGO INCREÍBLE</p>
+        </div>
+    </section>
+
+    <!-- =========================
+     EQUIPO
+========================= -->
+
+<section class="equipo">
+
+    <h2 class="equipo-title">
+    <span data-key="teamTitle1">CONOCE A NUESTRO</span>
+    <span class="script" data-key="teamTitle2">Equipo</span>
+    </h2>
+
+    <div class="team-container">
+
+        <!-- CARD -->
+        <div class="team-card">
+
+            <!-- IMAGEN TARJETA -->
+            <img src="img/daniela.png" alt="" class="card-img">
+
+            <!-- POPUP -->
+            <div class="popup">
+
+                <div class="popup-content">
+
+                    <button class="close-btn">✕</button>
+
+                    <img src="img/daniela.png" alt="" class="popup-img">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CARD -->
+        <div class="team-card">
+
+            <img src="img/ivan.png" alt="" class="card-img">
+
+            <div class="popup">
+
+                <div class="popup-content">
+
+                    <button class="close-btn">✕</button>
+
+                    <img src="img/ivan.png" alt="" class="popup-img">
+
+                </div>
+
+            </div>
+
+        </div>
+
+<!-- CARD -->
+        <div class="team-card">
+
+            <!-- IMAGEN TARJETA -->
+            <img src="img/johana.png" alt="" class="card-img">
+
+            <!-- POPUP -->
+            <div class="popup">
+
+                <div class="popup-content">
+
+                    <button class="close-btn">✕</button>
+
+                    <img src="img/johana.png" alt="" class="popup-img">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="team-card">
+
+            <img src="img/paula.png" alt="" class="card-img">
+
+            <div class="popup">
+
+                <div class="popup-content">
+
+                    <button class="close-btn">✕</button>
+
+                    <img src="img/paula.png" alt="" class="popup-img">
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     FORMULARIO
+========================= -->
+
+<section class="registro">
+
+    <div class="registro-header">
+
+        <h2 data-key="registerTitle">
+            REGÍSTRATE CON NOSOTROS
+        </h2>
+
+        <p data-key="registerText">
+            PILAS CON ESTE GLOSARIO: ¡NO DÉ PAPAYA EN LA CAPITAL!
+        </p>
+
+    </div>
+
+
+    <form class="registro-form">
+
+        <!-- FILA -->
+        <div class="form-row">
+
+            <input 
+                type="text"
+                data-key-placeholder="eventName"
+                placeholder="Nombre del evento"
+            >
+
+            <input 
+                type="date"
+            >
+
+        </div>
+
+
+        <!-- EMAIL -->
+        <input 
+            type="email"
+            data-key-placeholder="email"
+            placeholder="Email"
+        >
+
+
+        <!-- UBICACIÓN -->
+        <input 
+            type="text"
+            data-key-placeholder="location"
+            placeholder="Ubicación"
+        >
+
+
+        <!-- DESCRIPCIÓN -->
+        <textarea 
+            data-key-placeholder="description"
+            placeholder="Descripción"
+        ></textarea>
+
+
+        <!-- BOTÓN -->
+        <button type="submit" data-key="sendBtn">
+            ENVIAR
+        </button>
+
+    </form>
+
+    </section>
+
+    <!-- =========================
+     MAPA
+    ========================= -->
+
+    <section class="map-section">
+
+        <div class="map-container">
+
+            <iframe
+                src="https://www.google.com/maps?q=Monserrate,Bogotá&output=embed"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     INFO PLAN BOG
+========================= -->
+
+<section class="info-plan">
+
+    <div class="info-container">
+
+        <!-- TEXTO -->
+        <div class="info-text">
+
+            <span class="mini-title" data-key="miniTitle">
+                DESCUBRE BOGOTÁ
+            </span>
+
+            <h2 data-key="infoTitle">
+                PLANES INTELIGENTES PARA UNA CIUDAD
+                <br>
+                QUE NO SE DETIENE
+            </h2>
+
+            <p data-key="infoText">
+                Descubre Bogotá jugando con Plan BOG, el juego de cartas
+                donde cada ronda es un nuevo parche. Roba, arriesga y vive
+                la ciudad como un verdadero rolo.
+            </p>
+
+            <button data-key="infoBtn">
+                ¡21 horas, mil planes y una sola ciudad!
+            </button>
+
+        </div>
+
+
+        <!-- IMAGEN -->
+        <div class="info-image">
+
+            <img src="img/cartas.png" alt="">
+
+        </div>
+
+    </div>
+
+
+    <!-- CARDS -->
+    <div class="benefits">
+
+        <!-- CARD -->
+        <div class="benefit-card">
+
+            <div class="icon">🌿</div>
+
+            <h3 data-key="card1Title">
+                SOSTENIBLE PRIMERO
+            </h3>
+
+            <p data-key="card1Text">
+                Impulsamos eventos locales y responsables
+                con el entorno y los comercios de barrio
+            </p>
+
+        </div>
+
+
+        <!-- CARD -->
+        <div class="benefit-card">
+
+            <div class="icon">🚲</div>
+
+            <h3 data-key="card2Title">
+                HECHO PARA TI
+            </h3>
+
+            <p data-key="card2Text">
+                Recomendaciones por zona, presupuesto y gustos.
+                Filtra y encuentra sin perder tiempo.
+            </p>
+
+        </div>
+
+
+        <!-- CARD -->
+        <div class="benefit-card">
+
+            <div class="icon">✨</div>
+
+            <h3 data-key="card3Title">
+                LO QUE FUNCIONA
+            </h3>
+
+            <p data-key="card3Text">
+                Rutas y planes probados por la comunidad
+                con tips reales y mapas listos para salir.
+            </p>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <footer class="footer">
+        <p data-key="footerText">© Plan BOG — Todos los derechos reservados</p>
+    </footer>
+
+        <!-- JS -->
+    <script src="../js/contactanos.js"></script>
+
+</body>
+</html>
