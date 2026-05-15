@@ -44,8 +44,7 @@ const translations = {
         vocaText:
         '<span>PILAS</span> CON ESTE GLOSARIO: ¡NO DÉ <span>PAPAYA</span> EN LA CAPITAL!',
 
-        vocaBottom:
-        '"¡PILAS, <span>VECI!</span> NO DÉ <span>PAPAYA</span> CON EL MENÚ. DE <span>clic aquí</span> PARA BAJAR EL GLOSARIO GASTRONÓMICO Y ARMAR EL <span>PARCHE</span> CON TODA LA DE LA LEY."',
+        vocaBottom: `"¡PILAS, <span>VECI!</span> NO DÉ <span>PAPAYA</span> CON EL MENÚ. DE <a href="https://drive.google.com/file/d/1R-9z5q8pjh1aIJtDmc-yIDCCEYm_xXZa/view?usp=sharing" target="_blank">clic aquí</a> PARA BAJAR EL GLOSARIO GASTRONÓMICO Y ARMAR EL <span>PARCHE</span> CON TODA LA DE LA LEY."`,
 
         // FOOTER
         footerText: "© Plan BOG — Todos los derechos reservados",
@@ -100,9 +99,7 @@ const translations = {
         vocaText:
         'CHECK THIS GLOSSARY: DON’T LOOK LIKE A <span>TOURIST</span> IN THE CAPITAL!',
 
-        vocaBottom:
-        '"HEY <span>FRIEND!</span> DON’T GET CONFUSED WITH THE MENU. <span>CLICK HERE</span> TO DOWNLOAD THE GASTRONOMIC GLOSSARY AND JOIN THE <span>LOCAL VIBE</span>."',
-
+        vocaBottom: `"HEY <span>FRIEND!</span> DON'T GET CONFUSED WITH THE MENU. <a href="https://drive.google.com/file/d/1R-9z5q8pjh1aIJtDmc-yIDCCEYm_xXZa/view?usp=sharing" target="_blank">CLICK HERE</a> TO DOWNLOAD THE GASTRONOMIC GLOSSARY AND JOIN THE <span>LOCAL VIBE.</span>"`,
         // FOOTER
         footerText: "© Plan BOG — All rights reserved",
 

@@ -40,8 +40,7 @@ const translations = {
         vocaText:
         '<span>PILAS</span> CON ESTE GLOSARIO: ¡NO DÉ <span>PAPAYA</span> EN LA CAPITAL!',
 
-        vocaBottom:
-        '"¡PILAS, <span>VECI!</span> NO DÉ <span>PAPAYA</span> CON EL MENÚ. DE <span>clic aquí</span> PARA BAJAR EL GLOSARIO GASTRONÓMICO Y ARMAR EL <span>PARCHE</span> CON TODA LA DE LA LEY."',
+        vocaBottom: `"¡PILAS, <span>VECI!</span> NO DÉ <span>PAPAYA</span> CON EL ESTILO. DE <a href="https://drive.google.com/file/d/1_ghikhutrCNF1FPAvcr-DaJiuXbprnUM/view?usp=sharing" target="_blank">clic aquí</a> PARA BAJAR EL GLOSARIO DE MODA Y ARMAR EL <span>PARCHE</span> CON TODA LA DE LA LEY."`,
 
         // FOOTER
         footerText: "© Plan BOG — Todos los derechos reservados",
@@ -54,7 +53,7 @@ const translations = {
         tipsText:
         "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.",
 
-        tipsBox:"DEL MECATO A LA TUSA: BOGOTÁ SABE A TRADICIÓN."
+        tipsBox: "DE LAS PASARELAS AL PARCHE: BOGOTÁ VISTE CON ESTILO."
 
     },
 
@@ -98,8 +97,7 @@ const translations = {
         vocaText:
         'CHECK THIS GLOSSARY: DON’T LOOK LIKE A <span>TOURIST</span> IN THE CAPITAL!',
 
-        vocaBottom:
-        '"HEY <span>FRIEND!</span> DON’T GET CONFUSED WITH THE MENU. <span>CLICK HERE</span> TO DOWNLOAD THE GASTRONOMIC GLOSSARY AND JOIN THE <span>LOCAL VIBE</span>."',
+        vocaBottom: `"HEY <span>FRIEND!</span> DON'T GET CONFUSED WITH THE STYLE. <a href="https://drive.google.com/file/d/1_ghikhutrCNF1FPAvcr-DaJiuXbprnUM/view?usp=sharing" target="_blank">CLICK HERE</a> TO DOWNLOAD THE FASHION GLOSSARY AND JOIN THE <span>LOCAL VIBE.</span>"`,
 
         // FOOTER
         footerText: "© Plan BOG — All rights reserved",
@@ -112,7 +110,7 @@ const translations = {
         tipsText:
         "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.",
 
-        tipsBox:"FROM SNACKS TO HEARTBREAK: BOGOTÁ TASTES LIKE TRADITION."
+        tipsBox: "FROM THE RUNWAY TO THE STREET CREW: BOGOTÁ DRESSES WITH STYLE."
 
     }
 
@@ -122,92 +120,86 @@ const translations = {
 // =========================
 
 const eventos = {
-
     0: {
         es: {
-            titulo: "PARRILLA FEST",
+            titulo: "BOGOTÁ FASHION WEEK",
             descripcion:
-            "Parrilla Fest reúne a los mejores restaurantes especializados en carnes, hamburguesas y parrilla. Durante varios días los asistentes pueden disfrutar platos especiales, música y experiencias gastronómicas.",
-            link: "https://parrillafest.com/",
-            imagen: "img/evento6.png"
+            "El Bogotá Fashion Week (BFW) es la principal plataforma comercial y de promoción de la moda en Colombia, liderada por la Cámara de Comercio de Bogotá (CCB). Su objetivo es posicionar a la capital colombiana como un epicentro de negocios de moda, conectando a diseñadores locales con compradores nacionales e internacionales.",
+            link: "https://www.bogotafashionweek.com.co/",
+            imagen: "img/fashionweek.png"
         },
         en: {
-            titulo: "GRILL FEST",
+            titulo: "BOGOTÁ FASHION WEEK",
             descripcion:
-            "Parrilla Fest brings together the best restaurants specialized in grilled meat and burgers. Visitors can enjoy special dishes, music and gastronomic experiences.",
-            link: "https://parrillafest.com/",
-            imagen: "img/evento6.png"
+            "Bogotá Fashion Week (BFW) is the main commercial and fashion promotion platform in Colombia, led by the Bogotá Chamber of Commerce (CCB). Its goal is to position the Colombian capital as a fashion business hub, connecting local designers with national and international buyers.",
+            link: "https://www.bogotafashionweek.com.co/",
+            imagen: "img/fashionweek.png"
         }
     },
-
     1: {
         es: {
-            titulo: "BURGUER MASTER",
+            titulo: "FERIA EVA",
             descripcion:
-            "Burger Master es uno de los eventos gastronómicos más importantes de Colombia. Restaurantes artesanales presentan hamburguesas especiales para competir por el voto del público.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento7.png"
+            "La feria tiene tres ediciones al año (Edición Primavera en mayo, Love Edition en septiembre y Christmas Edition en diciembre). EVA será la oportunidad para descubrir miles de talentos y productos en las categorías: moda, joyería, hogar, bienestar y cuidado personal, niños, mascotas, gastronomía. Es un espacio para apoyar el emprendimiento local, en un ambiente festivo inspirado en la primavera y el florecer de las ciudades en esta época.",
+            link: "https://mapaferiaeva.com/bogota/",
+            imagen: "img/eva.png"
         },
         en: {
-            titulo: "BURGER MASTER",
+            titulo: "EVA FAIR",
             descripcion:
-            "Burger Master is one of the biggest gastronomic events in Colombia. Restaurants create special burgers to compete for the public vote.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento7.png"
+            "The fair has three editions per year (Spring Edition in May, Love Edition in September and Christmas Edition in December). EVA is the opportunity to discover thousands of talents and products in categories: fashion, jewelry, home, wellness and personal care, children, pets, gastronomy. It is a space to support local entrepreneurship, in a festive atmosphere inspired by spring and the blooming of cities at this time of year.",
+            link: "https://mapaferiaeva.com/bogota/",
+            imagen: "img/eva.png"
         }
     },
-
     2: {
         es: {
-            titulo: "FESTIVAL DEL PAN",
+            titulo: "ANTIFERIA",
             descripcion:
-            "Festival dedicado a la panadería artesanal y los postres tradicionales. Incluye degustaciones, concursos y muestras gastronómicas.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento8.png"
+            "La Antiferia ya hace parte de la agenda cultura de Bogotá. Esta feria de ropa de segunda mano llega a Medellín este fin de semana del 21 al 23 de abril. El evento se celebrará simultáneamente en Bogotá y la capital antioqueña. El objetivo de esta feria no feria es promover la moda circular, la sostenibilidad y los emprendimientos locales. Ambas ferias abrirán puertas a las 10:00 a.m. hasta las 8:00 p.m.",
+            link: "https://bacanika.com/articulo/antiferia-2023",
+            imagen: "img/antiferia.png"
         },
         en: {
-            titulo: "BREAD FESTIVAL",
+            titulo: "ANTIFAIR",
             descripcion:
-            "Festival dedicated to artisan bakery and traditional desserts with tastings, contests and food experiences.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento8.png"
+            "Antiferia is already part of Bogotá's cultural agenda. This second-hand clothing fair comes to Medellín this weekend from April 21 to 23. The event will be held simultaneously in Bogotá and the Antioquian capital. The objective of this fair is to promote circular fashion, sustainability and local entrepreneurship. Both fairs will open their doors from 10:00 a.m. to 8:00 p.m.",
+            link: "https://bacanika.com/articulo/antiferia-2023",
+            imagen: "img/antiferia.png"
         }
     },
-
     3: {
         es: {
-            titulo: "FESTIVAL DE LA LECHONA",
+            titulo: "ARTBO",
             descripcion:
-            "Evento gastronómico dedicado a uno de los platos más tradicionales de Colombia. Participan restaurantes y cocineros especializados.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento9.png"
+            "En su décima edición, Fin de semana ARTBO se expande y contará con un día más de programación, los espacios abrirán al público desde el jueves 16 hasta el domingo 19 de abril de 2026. Durante 4 días, los visitantes podrán visitar, en horario extendido, diversos espacios expositivos —galerías, espacios autogestionados, instituciones, museos, espacios de diseño y librerías— organizados en ocho circuitos de la ciudad: Kennedy, Centro Histórico, Macarena, Teusaquillo, Chapinero, San Felipe, Nogal y Chicó.",
+            link: "https://www.artbo.co/findesemana2026",
+            imagen: "img/artbo.png"
         },
         en: {
-            titulo: "LECHONA FESTIVAL",
+            titulo: "ARTBO",
             descripcion:
-            "A gastronomic event dedicated to one of Colombia's most traditional dishes with restaurants and specialized chefs.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento9.png"
+            "In its tenth edition, ARTBO Weekend expands and will feature one more day of programming, with spaces open to the public from Thursday April 16 to Sunday April 19, 2026. Over 4 days, visitors can explore, in extended hours, various exhibition spaces — galleries, self-managed spaces, institutions, museums, design spaces and bookstores — organized in eight city circuits: Kennedy, Centro Histórico, Macarena, Teusaquillo, Chapinero, San Felipe, Nogal and Chicó.",
+            link: "https://www.artbo.co/findesemana2026",
+            imagen: "img/artbo.png"
         }
     },
-
     4: {
         es: {
-            titulo: "FESTIVAL DEL ARROZ",
+            titulo: "CREATEX",
             descripcion:
-            "Festival gastronómico con platos preparados a base de arroz, música en vivo y experiencias culturales para toda la familia.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento10.png"
+            "Createx 2026 es la principal feria de la industria textil y de la confección en Colombia, que se celebrará del 12 al 14 de mayo de 2026 en Corferias, Bogotá. Actúa como una plataforma de negocios, insumos, maquinaria y tecnología que conecta a proveedores con confeccionistas, enfocándose en la cadena productiva.",
+            link: "https://www.saloncreatex.com/es/",
+            imagen: "img/createx.png"
         },
         en: {
-            titulo: "RICE FESTIVAL",
+            titulo: "CREATEX",
             descripcion:
-            "Food festival with rice-based dishes, live music and cultural experiences for the whole family.",
-            link: "https://tuliorecomienda.com/",
-            imagen: "img/evento10.png"
+            "Createx 2026 is Colombia's leading textile and garment industry fair, to be held from May 12 to 14, 2026 at Corferias, Bogotá. It serves as a business platform for supplies, machinery and technology, connecting suppliers with manufacturers and focusing on the productive chain.",
+            link: "https://www.saloncreatex.com/es/",
+            imagen: "img/createx.png"
         }
     }
-
 };
 
 // =========================
