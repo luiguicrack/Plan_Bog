@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda — Plan BOG</title>
+    <link rel="icon" href="img/mini.png" type="image/png">
+
+    <!-- CSS PROPIO GASTRONOMÍA -->
+    <link rel="stylesheet" href="../css/styles3.css">
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="../index.html" data-key="home">INICIO</a></li>
+            <li><button id="language-toggle">ESP</button></li>
+            <li class="dropdown">
+                <a href="#" data-key="category">CATEGORÍA</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gastronomia.html" data-key="gastronomy">GASTRONOMÍA</a></li>
+                    <li><a href="deportes.html" data-key="sports">DEPORTES</a></li>
+                    <li><a href="musica.html" data-key="music">MÚSICA</a></li>
+                    <li><a href="moda.html" data-key="fashion">MODA</a></li>
+                    <li><a href="ferias.html" data-key="fairs">FERIAS</a></li>
+                    <li><a href="emprendimiento.html" data-key="entrepreneurship">EMPRENDIMIENTO</a></li>
+                </ul>
+            </li>
+            <li><a href="contactanos.html" data-key="contact">CONTÁCTANOS</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <img src="img/fondo.gif" alt="Gastronomía Bogotá" class="hero-img">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="script" data-key="gastroTitle">Moda</h1>
+            <p data-key="gastroHero">EXPLORA EVENTOS, FERIAS Y EXPERIENCIAS CERCA DE TI.</p>
+        </div>
+    </section>
+
+    <!-- PROGRÁMATE -->
+    <section class="programa">
+        <h2>
+            <span data-key="scheduleTitle">PROGRÁMATE PARA TODO EL</span>
+            <span class="script" data-key="scheduleScript">Mes</span>
+        </h2>
+        <p class="programa-text" data-key="scheduleText">SEA LA <B>LLAVE</B> DEL ESTILO: APOYE EL TALENTO BERRACO DE NUESTROS DISEÑADORES BOGOTANOS Y RENUEVE SU ARMARIO</p>
+    </section>
+
+    <!-- CARRUSEL -->
+<section class="carrusel-section">
+
+    <div class="carrusel-track" id="gastroTrack">
+
+        <!-- BOGOTÁ FASHION WEEK -->
+        <div class="evento-card">
+            <img src="img/fashionweek.png" alt="Bogotá Fashion Week">
+            <div class="evento-info">
+                <h3>BOGOTÁ FASHION <span class="script">week</span></h3>
+                <p>🎟️ Entrada libre</p>
+                <p>📍 Ágora Bogotá</p>
+                <p>🕐 10:00 a.m. a 8:00 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- FERIA EVA -->
+        <div class="evento-card">
+            <img src="img/eva.png" alt="Feria EVA">
+            <div class="evento-info">
+                <h3>FERIA <span class="script">eva</span></h3>
+                <p>🎟️ Entrada libre</p>
+                <p>📍 Parque de la 93</p>
+                <p>🕐 11:00 a.m. a 9:00 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- ANTIFERIA -->
+        <div class="evento-card">
+            <img src="img/antiferia.png" alt="Antiferia">
+            <div class="evento-info">
+                <h3>ANTI<span class="script">feria</span></h3>
+                <p>🎟️ Entrada libre</p>
+                <p>📍 Bogotá Centro</p>
+                <p>🕐 10:00 a.m. a 8:00 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- ARTBO -->
+        <div class="evento-card">
+            <img src="img/artbo.png" alt="ARTBO">
+            <div class="evento-info">
+                <h3>ART<span class="script">bo</span></h3>
+                <p>🎟️ Entrada desde $20.000</p>
+                <p>📍 Corferias</p>
+                <p>🕐 12:00 p.m. a 8:00 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- CREATEX -->
+        <div class="evento-card">
+            <img src="img/createx.png" alt="Createx">
+            <div class="evento-info">
+                <h3>CREA<span class="script">tex</span></h3>
+                <p>🎟️ Entrada empresarial</p>
+                <p>📍 Corferias Bogotá</p>
+                <p>🕐 9:00 a.m. a 6:00 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="carrusel-btns">
+        <button class="btn-prev">←</button>
+        <button class="btn-next">→</button>
+    </div>
+
+</section>
+
+    <section class="informate">
+
+    <h2 data-key="infoTitle">INFORMATE MAS</h2>
+
+    <p data-key="infoText">
+        <b>NAVEGUE ENTRE FECHAS ( < > )</b>  PARA CONSULTAR INFORMACIÓN
+        DETALLADA DE LOS EVENTOS ANTERIORES Y PROGRAMADOS DE LA SEMANA
+    </p>
+
+    </section>
+
+    <!-- =========================
+INFO EVENTO
+========================= -->
+
+<section class="info-evento" id="infoEvento">
+
+    <div class="info-container">
+
+        <div class="info-img">
+            <img id="infoImagen" src="img/evento11.png" alt="Evento">
+        </div>
+
+        <div class="info-content">
+
+            <h2 id="infoTitulo">BOGOTA FASHION WEEK</h2>
+
+            <p id="infoDescripcion">
+                EL BOGOTÁ FASHION WEEK (BFW) ES LA PRINCIPAL
+                PLATAFORMA COMERCIAL Y DE PROMOCIÓN DE LA MODA EN
+                COLOMBIA, LIDERADA POR LA CÁMARA DE COMERCIO DE
+                BOGOTÁ (CCB). SU OBJETIVO ES POSICIONAR A LA CAPITAL
+                COLOMBIANA COMO UN EPICENTRO DE NEGOCIOS DE MODA,
+                CONECTANDO A DISEÑADORES LOCALES CON COMPRADORES
+                NACIONALES E INTERNACIONALES.
+            </p>
+
+            <div class="info-link">
+                <h3 data-key="seeMore">VER MÁS</h3>
+                <a id="infoLink"
+                   href="HTTPS://WWW.BOGOTAFASHIONWEEK.COM.CO/"
+                   target="_blank">
+                   HTTPS://WWW.BOGOTAFASHIONWEEK.COM.CO/
+                </a>
+            </div>
+
+            <div class="info-map">
+                <h3 data-key="location">UBICACIÓN</h3>
+
+                <!-- MAPA COMO IMAGEN -->
+                <img src="img/mapa.png" alt="Mapa">
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</section>
+
+<!-- =========================
+VOCABULARIO ROLO
+========================= -->
+
+<section class="vocabulario">
+
+    <h2 data-key="vocaTitle">VOCABULARIO ROLO</h2>
+
+    <p class="voca-text" data-key="vocaText">
+
+        <span>PILAS</span> CON ESTE GLOSARIO:
+        ¡NO DÉ <span>PAPAYA</span> EN LA CAPITAL!
+
+    </p>
+
+    <div class="voca-wrapper">
+
+        <!-- BOTON IZQUIERDA -->
+        <button class="voca-btn prev-voca">←</button>
+
+        <!-- CARRUSEL -->
+        <div class="voca-track" id="vocaTrack">
+
+            <img src="img/voca9.png" alt="">
+            <img src="img/voca10.png" alt="">
+            <img src="img/voca11.png" alt="">
+            <img src="img/voca12.png" alt="">
+            <img src="img/voca13.png" alt="">
+            <img src="img/voca14.png" alt="">
+            <img src="img/voca15.png" alt="">
+            <img src="img/voca16.png" alt="">
+
+        </div>
+
+        <!-- BOTON DERECHA -->
+        <button class="voca-btn next-voca">→</button>
+
+    </div>
+
+    <p class="voca-bottom" data-key="vocaBottom">
+
+    "¡PILAS, <span>VECI!</span>
+    NO DÉ <span>PAPAYA</span> CON EL ESTILO.
+    
+    DE 
+    <a href="https://drive.google.com/file/d/1_ghikhutrCNF1FPAvcr-DaJiuXbprnUM/view?usp=sharing" target="_blank">
+        clic aquí
+    </a>
+    
+    PARA BAJAR EL GLOSARIO
+    DE MODA Y ARMAR EL <span>PARCHE</span>
+    CON TODA LA DE LA LEY."
+
+    </p>
+
+    </section>
+
+    <!-- =========================
+BOGO TIPS
+========================= -->
+
+<section class="bogo-tips">
+
+    <!-- TEXTO -->
+    <div class="tips-content">
+
+        <span class="tips-tag" data-key="tipsTag">
+            BOGO TIPS
+        </span>
+
+        <h2 data-key="tipsTitle">
+            TRANSPORTE EN BOGOTÁ
+        </h2>
+
+        <p data-key="tipsText">
+           LOREM IPSUM DOLOR SIT AMET, CONSECTETUR
+            ADIPISCING ELIT. UT ENIM AD MINIM VENIAM, QUIS
+            NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT
+            ALIQUIP EX EA COMMODO CONSEQUAT.
+        </p>
+
+        <div class="tips-box" data-key="tipsBox">
+            DE LAS PASARELAS AL PARCHE: BOGOTÁ VISTE CON ESTILO.
+        </div>
+
+    </div>
+
+    <!-- IMAGEN -->
+    <div class="tips-image">
+
+        <video controls>
+            <source src="img/transporte.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+
+    </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p data-key="footerText">© Plan BOG — Todos los derechos reservados</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="../js/moda.js"></script>
+
+</body>
+</html>

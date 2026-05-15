@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes — Plan BOG</title>
+    <link rel="icon" href="img/mini.png" type="image/png">
+
+    <!-- CSS PROPIO GASTRONOMÍA -->
+    <link rel="stylesheet" href="../css/styles4.css">
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="../index.html" data-key="home">INICIO</a></li>
+            <li><button id="language-toggle">ESP</button></li>
+            <li class="dropdown">
+                <a href="#" data-key="category">CATEGORÍA</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gastronomia.html" data-key="gastronomy">GASTRONOMÍA</a></li>
+                    <li><a href="deportes.html" data-key="sports">DEPORTES</a></li>
+                    <li><a href="musica.html" data-key="music">MÚSICA</a></li>
+                    <li><a href="moda.html" data-key="fashion">MODA</a></li>
+                    <li><a href="ferias.html" data-key="fairs">FERIAS</a></li>
+                    <li><a href="emprendimiento.html" data-key="entrepreneurship">EMPRENDIMIENTO</a></li>
+                </ul>
+            </li>
+            <li><a href="contactanos.html" data-key="contact">CONTÁCTANOS</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <img src="img/fondo.gif" alt="Gastronomía Bogotá" class="hero-img">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="script" data-key="gastroTitle">Deportes</h1>
+            <p data-key="gastroHero">EXPLORA EVENTOS, FERIAS Y EXPERIENCIAS CERCA DE TI.</p>
+        </div>
+    </section>
+
+    <!-- PROGRÁMATE -->
+    <section class="programa">
+        <h2>
+            <span data-key="scheduleTitle">PROGRÁMATE PARA TODO EL</span>
+            <span class="script" data-key="scheduleScript">Mes</span>
+        </h2>
+        <p class="programa-text" data-key="scheduleText">NO SE QUEDE COMO UNA TORTUGA, PÓNGASE <b>PILAS</b> CON LOS MEJORES PLANES DEPORTIVOS.</p>
+    </section>
+
+    <!-- CARRUSEL -->
+<!-- CARRUSEL -->
+<section class="carrusel-section">
+
+    <div class="carrusel-track" id="gastroTrack">
+
+        <!-- EVENTO 1 -->
+        <div class="evento-card">
+            <img src="img/evento12.png" alt="La Selección se Despide">
+            <div class="evento-info">
+                <h3>LA SELECCIÓN <span class="script">despide</span></h3>
+                <p>⚽ Evento especial FIFA 2026</p>
+                <p>📅 29 de mayo de 2026</p>
+                <p>🕐 6:30 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- EVENTO 2 -->
+        <div class="evento-card">
+            <img src="img/evento13.png" alt="Partido Despedida FIFA 2026">
+            <div class="evento-info">
+                <h3>PARTIDO <span class="script">FIFA</span></h3>
+                <p>🏆 Copa Mundial 2026</p>
+                <p>📅 Junio 2026</p>
+                <p>🕐 6:00 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- EVENTO 3 -->
+        <div class="evento-card">
+            <img src="img/evento14.png" alt="Santa Fe vs América">
+            <div class="evento-info">
+                <h3>SANTA FE <span class="script">vs América</span></h3>
+                <p>⚽ Liga Colombiana</p>
+                <p>📅 18 de julio</p>
+                <p>🕐 8:30 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- EVENTO 4 -->
+        <div class="evento-card">
+            <img src="img/evento15.png" alt="Ronaldinho Gaucho">
+            <div class="evento-info">
+                <h3>RONALDINHO <span class="script">Gaúcho</span></h3>
+                <p>🌎 LATAM vs EUROPA</p>
+                <p>📅 Agosto 2026</p>
+                <p>🕐 5:00 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+        <!-- EVENTO 5 -->
+        <div class="evento-card">
+            <img src="img/evento16.png" alt="WWE South America">
+            <div class="evento-info">
+                <h3>WWE <span class="script">Tour</span></h3>
+                <p>🎤 South America Live Tour</p>
+                <p>📅 Octubre 2026</p>
+                <p>🕐 7:30 p.m.</p>
+                <a href="#" class="ver-mas" data-key="seeMore">VER MÁS</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="carrusel-btns">
+        <button class="btn-prev">←</button>
+        <button class="btn-next">→</button>
+    </div>
+
+    </section>
+
+    <section class="informate">
+
+    <h2 data-key="infoTitle">INFORMATE MAS</h2>
+
+    <p data-key="infoText">
+        <b>NAVEGUE ENTRE FECHAS ( < > )</b> PARA CONSULTAR INFORMACIÓN
+        DETALLADA DE LOS EVENTOS ANTERIORES Y PROGRAMADOS DE LA SEMANA
+    </p>
+
+    </section>
+
+    <!-- =========================
+INFO EVENTO
+========================= -->
+
+<section class="info-evento" id="infoEvento">
+
+    <div class="info-container">
+
+        <div class="info-img">
+            <img id="infoImagen" src="img/evento13.png" alt="Evento">
+        </div>
+
+        <div class="info-content">
+
+            <h2 id="infoTitulo">LA SELECCIÓN SE DESPIDE</h2>
+
+            <p id="infoDescripcion">
+                DE ACUERDO CON LA FIFA 2026™ HOY FALTEN EXACTAMENTE 100
+                DÍAS PARA QUE EMPIECE LA COPA MUNDIAL QUE SE JUGARÁ EN
+                CANADÁ, MÉXICO Y ESTADOS UNIDOS. EN EL TORNEO SE
+                DISPUTARÁN 104 PARTIDOS Y COMENZARÁ EL 11 DE JUNIO EN EL
+                ESTADIO CIUDAD DE MÉXICO Y CONCLUIRÁ EL 19 DE JULIO EN EL
+                ESTADIO NUEVA YORK NUEVA JERSEY.
+            </p>
+
+            <div class="info-link">
+                <h3 data-key="seeMore">VER MÁS</h3>
+                <a id="infoLink"
+                   href="HTTPS://BOGOTA.GOV.CO/MI-CIUDAD/CULTURA-
+                        RECREACION-Y-DEPORTE/DESPEDIDA-SELECCION-COLOMBIA-DE-
+                        FUTBOL-EN-BOGOTA-29-DE-MAYO-DE-2026"
+                   target="_blank">
+                   HTTPS://BOGOTA.GOV.CO/MI-CIUDAD/CULTURA-
+                    RECREACION-Y-DEPORTE/DESPEDIDA-SELECCION-COLOMBIA-DE-
+                    FUTBOL-EN-BOGOTA-29-DE-MAYO-DE-2026
+                </a>
+            </div>
+
+            <div class="info-map">
+                <h3 data-key="location">UBICACIÓN</h3>
+
+                <!-- MAPA COMO IMAGEN -->
+                <img src="img/mapa.png" alt="Mapa">
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</section>
+
+<!-- =========================
+VOCABULARIO ROLO
+========================= -->
+
+<section class="vocabulario">
+
+    <h2 data-key="vocaTitle">VOCABULARIO ROLO</h2>
+
+    <p class="voca-text" data-key="vocaText">
+
+        <span>PILAS</span> CON ESTE GLOSARIO:
+        ¡NO DÉ <span>PAPAYA</span> EN LA CAPITAL!
+
+    </p>
+
+    <div class="voca-wrapper">
+
+        <!-- BOTON IZQUIERDA -->
+        <button class="voca-btn prev-voca">←</button>
+
+        <!-- CARRUSEL -->
+        <div class="voca-track" id="vocaTrack">
+
+            <img src="img/voca17.png" alt="">
+            <img src="img/voca18.png" alt="">
+            <img src="img/voca19.png" alt="">
+            <img src="img/voca20.png" alt="">
+            <img src="img/voca21.png" alt="">
+            <img src="img/voca22.png" alt="">
+            <img src="img/voca23.png" alt="">
+            <img src="img/voca24.png" alt="">
+
+        </div>
+
+        <!-- BOTON DERECHA -->
+        <button class="voca-btn next-voca">→</button>
+
+    </div>
+
+    <p class="voca-bottom" data-key="vocaBottom">
+
+    "¡PILAS, <span>VECI!</span>
+    NO DÉ <span>PAPAYA</span> CON EL EJERCICIO.
+    
+    DE 
+    <a href="https://drive.google.com/file/d/1VpVLq0OthzVmmHzx0LqGwzsQSwCTNyOZ/view?usp=sharing" target="_blank">
+        clic aquí
+    </a>
+    
+    PARA BAJAR EL GLOSARIO
+    DEPORTES Y ARMAR EL <span>PARCHE</span>
+    CON TODA LA DE LA LEY."
+
+    </p>
+
+    </section>
+
+    <!-- =========================
+BOGO TIPS
+========================= -->
+
+<section class="bogo-tips">
+
+    <!-- TEXTO -->
+    <div class="tips-content">
+
+        <span class="tips-tag" data-key="tipsTag">
+            BOGO TIPS
+        </span>
+
+        <h2 data-key="tipsTitle">
+            CULTURA BOGOTANA
+        </h2>
+
+        <p data-key="tipsText">
+            LOREM IPSUM DOLOR SIT AMET. CONSECTETUR
+            ADIPISCING ELIT. UT ENIM AD MINIM VENIAM, QUIS
+            NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT
+            ALIQUIP EX EA COMMODO CONSEQUAT.
+        </p>
+
+        <div class="tips-box" data-key="tipsBox">
+            ¡DEL ESTADIO A LA CANCHA: BOGOTÁ VIVE EL DEPORTE!
+        </div>
+
+    </div>
+
+    <!-- IMAGEN -->
+    <div class="tips-image">
+
+        <!-- PON TU GIF -->
+        <img src="img/fondo.gif" alt="Tips Bogotá">
+
+    </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p data-key="footerText">© Plan BOG — Todos los derechos reservados</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="../js/deportes.js"></script>
+
+</body>
+</html>
