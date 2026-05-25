@@ -940,3 +940,89 @@ BOGO TIPS
     text-align:center;
     align-items:center;
 }
+
+.tips-image{
+    flex:1;
+    min-width:320px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* VIDEO */
+.tips-image video{
+    width:100%;
+    max-width:750px;      /* más grande */
+    height:520px;
+    object-fit:cover;
+
+    border-radius:45px;
+
+    /* borde */
+    border:8px solid #9C1F28;
+
+    /* sombra elegante */
+    box-shadow:0 12px 30px rgba(0,0,0,0.25);
+
+    /* transición suave */
+    transition:0.4s ease;
+}
+
+/* efecto hover */
+.tips-image video:hover{
+    transform:scale(1.02);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+    .bogo-tips{
+        padding:60px 5%;
+        gap:40px;
+    }
+
+    .tips-content h2{
+        font-size:42px;
+    }
+
+    .tips-content p{
+        font-size:18px;
+    }
+
+    .tips-image img{
+        height:400px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .tips-tag{
+        font-size:24px;
+    }
+
+    .tips-content h2{
+        font-size:32px;
+    }
+
+    .tips-content p{
+        font-size:15px;
+        line-height:1.8;
+    }
+
+    .tips-box{
+        font-size:14px;
+    }
+
+    .tips-image img{
+        height:280px;
+        border-radius:30px;
+    }
+
+}
+
+.tips-content{
+    text-align:center;
+    align-items:center;
+}
